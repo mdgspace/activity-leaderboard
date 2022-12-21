@@ -1,0 +1,39 @@
+.time-ranges{
+  display: flex;
+
+  position: absolute;
+  right: 2.5vw;
+  bottom: 3vh;
+
+}
+.weekly{
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 121px;
+height: 47px;
+background: linear-gradient(108.5deg, #3A5E72 4.95%, #5C93B1 132.43%);
+box-shadow: inset 7px 7px 10px rgba(79, 136, 167, 0.3);
+border-radius: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.monthly{
+
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 121px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+height: 47px;
+}

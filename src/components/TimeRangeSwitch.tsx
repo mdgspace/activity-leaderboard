@@ -1,11 +1,12 @@
 import React from "react";
-
+import '../styles/timeRangeSwitch.scss'
 const TimeRangeSwitch = () => {
   return (
-    <div>
-      <button>Weekly</button>
-      <button>Monthly</button>
-    </div>
+   <div className="time-ranges">
+      <div className="weekly">Weekly</div>
+      <div className="monthly">Monthly</div>
+
+   </div>
   );
 };
 
